@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Company Profile</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+  <!-- Navbar -->
+  <nav>
+    <h2>MyCompany</h2>
+    <div>
+      <a href="#home">Home</a>
+      <a href="#profile">Our Profile</a>
+      <a href="#message">Message Us</a>
+    </div>
+  </nav>
+
+  <!-- Home -->
+  <section id="home" class="banner">
+    <h1 id="welcome">Hi</h1>
+  </section>
+
+  <!-- Profile -->
+  <section id="profile">
+    <h2>About The Company</h2>
+    <p>
+      We are a digital company focused on innovation and technology solutions.
+    </p>
+
+    <div class="vision-mission">
+      <div class="card">
+        <h3>Vision</h3>
+        <p>Become a leading tech company.</p>
+      </div>
+
+      <div class="card">
+        <h3>Mission</h3>
+        <p>Deliver high-quality digital solutions.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Message Us -->
+  <section id="message">
+    <h2>Message Us</h2>
+
+    <form id="messageForm">
+      <input type="text" id="name" placeholder="Name">
+      <input type="email" id="email" placeholder="Email">
+      <input type="text" id="phone" placeholder="Phone Number">
+      <textarea id="messageInput" placeholder="Message"></textarea>
+      <button type="submit">Submit</button>
+    </form>
+
+    <div id="result"></div>
+  </section>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
